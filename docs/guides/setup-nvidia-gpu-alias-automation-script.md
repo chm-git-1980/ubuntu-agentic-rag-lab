@@ -50,7 +50,8 @@ Execution Steps
     On your RAG server (or when the second card arrives), run:
     Bash
 
-    curl -O https://raw.githubusercontent.com/[YOUR_USERNAME]/[REPO_NAME]/main/setup_gpu_aliases.sh
+    
+    curl -L -O https://raw.githubusercontent.com/chm-git-1980/ubuntu-agentic-rag-lab/main/docs/guides/setup-gpu-aliases.sh
     bash setup_gpu_aliases.sh
     source ~/.bashrc
 
