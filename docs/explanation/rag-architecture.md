@@ -9,7 +9,7 @@ The Agentic RAG Lab is hosted on a dedicated Dell OptiPlex 7050 (Mid-Tower form 
 
     Processor: Intel Core i5 Series, providing the necessary instruction sets for efficient CPU-based data chunking and orchestration via LangChain/LlamaIndex.
 
-    System Memory: Totaling 16GB DDR4-2400 RAM (a hybrid configuration of 8GB OEM and 8GB G.Skill performance modules), optimized for handling large document batches and Milvus in-memory indexing.
+    System Memory: Totaling 8GB DDR4-2400 RAM.
 
 🚀 GPU Acceleration (Inference & Embeddings)
 
@@ -19,7 +19,9 @@ The architecture leverages discrete NVIDIA hardware to offload heavy mathematica
 
     Capability: Provides dedicated VRAM for hosting quantized local models and accelerating vector generation via CUDA, significantly reducing latency during the retrieval and generation phases.
 
-    Expansion: The system is designed for multi-GPU scaling, with a second M2000 unit planned to increase parallel processing capacity.
+    Expansion: The system is designed for multi-GPU scaling, with a second M2000 unit planned to increase parallel processing capacity and is currently installed.
+    
+    Secondary Accelerator: NVIDIA Quadro M2000.
 
 🗄️ Storage & Vector Database
 
