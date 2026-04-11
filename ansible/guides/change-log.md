@@ -1,0 +1,1 @@
+(The Journal): This is where you document the "take-backs." It captures why a certain configuration failed or why you pivoted (e.g., "Tried M2000 in Slot 1; caused thermal throttling; moved to Slot 2").
